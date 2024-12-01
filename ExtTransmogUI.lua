@@ -7,14 +7,18 @@ end
 function ExtTransmog_RebuildFrame()
 
     local extraWidth = 500;
+    local newHeight = 700;
 
     WardrobeFrame:SetWidth(1200+extraWidth);
+    WardrobeFrame:SetHeight(newHeight+120);
     WardrobeTransmogFrame:SetWidth(535+extraWidth);
+    WardrobeTransmogFrame:SetHeight(newHeight);
     WardrobeTransmogFrame.ModelScene:ClearAllPoints();
     WardrobeTransmogFrame.ModelScene:SetPoint("TOP", WardrobeTransmogFrame, "TOP", 0, -4);
     WardrobeTransmogFrame.ModelScene:SetWidth(420+extraWidth);
-    WardrobeTransmogFrame.ModelScene:SetHeight(420);
+    WardrobeTransmogFrame.ModelScene:SetHeight(newHeight);
     WardrobeTransmogFrame.Inset.BG:SetWidth(529+extraWidth);
+    WardrobeTransmogFrame.Inset.BG:SetHeight(newHeight);
 
     --[[
     WardrobeTransmogFrame.ModelScene.HeadButton:ClearAllPoints();
@@ -33,5 +37,6 @@ function ExtTransmog_RebuildFrame()
     ]]--
     
     UIPanelWindows["WardrobeFrame"].width = 1200+extraWidth;
+    UIPanelWindows["WardrobeFrame"].height = newHeight;
     
 end
