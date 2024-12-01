@@ -25,10 +25,9 @@ function ExtTransmog_RebuildFrame()
 
     WardrobeTransmogFrame.HeadButton:ClearAllPoints();
     WardrobeTransmogFrame.HeadButton:SetPoint("TOPLEFT", WardrobeTransmogFrame.ModelScene, "TOPLEFT", -40, -120);
+    WardrobeTransmogFrame.HandsButton:ClearAllPoints();
+    WardrobeTransmogFrame.HandsButton:SetPoint("TOPRIGHT", WardrobeTransmogFrame.ModelScene, "TOPRIGHT", 40, -120);
     --[[
-    WardrobeTransmogFrame.ModelScene.HandsButton:ClearAllPoints();
-    WardrobeTransmogFrame.ModelScene.HandsButton:SetPoint("TOP", WardrobeTransmogFrame.ModelScene, "TOP", 235, -118);
-
     WardrobeTransmogFrame.ModelScene.MainHandButton:ClearAllPoints();
     WardrobeTransmogFrame.ModelScene.MainHandButton:SetPoint("TOP", WardrobeTransmogFrame.ModelScene, "BOTTOM", -26, -5);
     WardrobeTransmogFrame.ModelScene.SecondaryHandButton:ClearAllPoints();
