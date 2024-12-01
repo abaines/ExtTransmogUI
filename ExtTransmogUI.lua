@@ -17,9 +17,9 @@ function ExtTransmog_RebuildFrame()
     WardrobeTransmogFrame:SetWidth(535+extraWidth);
     WardrobeTransmogFrame:SetHeight(newHeight);
     WardrobeTransmogFrame.ModelScene:ClearAllPoints();
-    WardrobeTransmogFrame.ModelScene:SetPoint("TOP", WardrobeTransmogFrame, "TOP", 0, -4);
+    WardrobeTransmogFrame.ModelScene:SetPoint("TOP", WardrobeTransmogFrame, "TOP", 0, -8);
     WardrobeTransmogFrame.ModelScene:SetWidth(420+extraWidth);
-    WardrobeTransmogFrame.ModelScene:SetHeight(newHeight);
+    WardrobeTransmogFrame.ModelScene:SetHeight(newHeight-13);
     WardrobeTransmogFrame.Inset.BG:SetWidth(529+extraWidth);
     WardrobeTransmogFrame.Inset.BG:SetHeight(newHeight);
 
