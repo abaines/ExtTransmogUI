@@ -7,7 +7,7 @@ end
 function ExtTransmog_RebuildFrame()
 
     local extraWidth = 500;
-    local newHeight = 700;
+    local newHeight = 780;
 
     UIPanelWindows["WardrobeFrame"].width = 1200+extraWidth;
     UIPanelWindows["WardrobeFrame"].height = newHeight;
