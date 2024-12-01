@@ -14,6 +14,7 @@ function ExtTransmog_RebuildFrame()
     WardrobeTransmogFrame.ModelScene:SetHeight(420);
     WardrobeTransmogFrame.Inset.BG:SetWidth(529);
 
+    --[[
     WardrobeTransmogFrame.ModelScene.HeadButton:ClearAllPoints();
     WardrobeTransmogFrame.ModelScene.HeadButton:SetPoint("TOP", WardrobeTransmogFrame.ModelScene, "TOP", -238, -41);
     WardrobeTransmogFrame.ModelScene.HandsButton:ClearAllPoints();
@@ -27,6 +28,7 @@ function ExtTransmog_RebuildFrame()
     WardrobeTransmogFrame.ModelScene.MainHandEnchantButton:SetPoint("BOTTOM", WardrobeTransmogFrame.ModelScene.MainHandButton, "BOTTOM", 0, -20);
     WardrobeTransmogFrame.ModelScene.SecondaryHandEnchantButton:ClearAllPoints();
     WardrobeTransmogFrame.ModelScene.SecondaryHandEnchantButton:SetPoint("BOTTOM", WardrobeTransmogFrame.ModelScene.SecondaryHandButton, "BOTTOM", 0, -20);
+    ]]--
     
     UIPanelWindows["WardrobeFrame"].width = 1200;
     

@@ -1,8 +1,8 @@
-## Interface: 80300
-## Title: Extended Transmog UI |cffffffffv1.1.2
+## Interface: 110005
+## Title: Extended Transmog UI |cffffffffv1.1.3
 ## Author: Germbread
 ## Notes: Widens the transmogrification interface to give a better view of the player's character.
-## Version: 1.1.2
+## Version: 1.1.3
 ## LoadOnDemand: 1
 ## LoadWith: Blizzard_Collections
 ## Dependencies: Blizzard_Collections
